@@ -3,8 +3,58 @@
   "candidate": {
     "name": "Avancha Kiran Kumar",
     "email": "avancha.2023093@mnnit.ac.in",
-    "repo_url": "",
+    "repo_url": "https://github.com/kiran20052002/IvyHomes_Assignment.git",
     "demo_url": ""
+  },
+  "answers": {
+    "dataset_audit_ref": "IVY-AUDIT-CCFB7F93",
+    "total_listing_records": 3650,
+    "unique_properties": 50,
+    "active_listings": 2920,
+    "corrupt_listing_ids": [
+      "100-3000129",
+      "100-3000344",
+      "100-3001183",
+      "100-3002896",
+      "100-3003296",
+      "100-3003797",
+      "DWE-3000557",
+      "DWE-3000727",
+      "MAG-3001327",
+      "MAG-3001519",
+      "MAG-3002378",
+      "SQU-3001712"
+    ],
+    "total_monthly_rent": 3444000,
+    "avg_price_per_sqft_2bhk": 12084.5,
+    "costliest_project": {
+      "project_id": "P30004",
+      "price_max_inr": 61304321
+    },
+    "listings_last_7_days": 73,
+    "fake_listing_ids": [
+      "100-3000129",
+      "100-3000516",
+      "100-3003797",
+      "DWE-3000860",
+      "DWE-3002085",
+      "DWE-3002593",
+      "MAG-3000623",
+      "MAG-3001035",
+      "MAG-3001327",
+      "MAG-3001427",
+      "MAG-3002378",
+      "SQU-3001541",
+      "SQU-3001674",
+      "SQU-3001712",
+      "SQU-3002040",
+      "SQU-3002128",
+      "SQU-3002359",
+      "SQU-3003265",
+      "ZER-3000908",
+      "ZER-3003685"
+    ],
+    "projects_with_wrong_listing_count": 423
   },
   "findings": [
     {
