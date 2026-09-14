@@ -17,12 +17,16 @@ This repository contains the solution for the Ivy Homes Software Engineering Int
 - Ivy Homes Property API
 - Vercel
 
+
 ## Environment Variables
 Create a `.env` file inside the `frontend` folder and add:
+```
 VITE_API_KEY=your_ivy_api_key
 VITE_BASE_URL=https://solve.ivy.homes
 VITE_DEMO_EMAIL=demo1@ivy.homes
 VITE_DEMO_PASSWORD=your_demo_password
+```
+
 
 
 ## How to Run the Frontend
