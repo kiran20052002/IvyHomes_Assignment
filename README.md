@@ -1,6 +1,36 @@
 # Ivy Homes Internship Assignment
-
 This repository contains the solution for the Ivy Homes Software Engineering Internship assignment.
+
+## Features
+- Login with real Ivy Homes API credentials.
+- Automatic token refresh when the access token expires.
+- Browse and filter property listings.
+- View individual listing details using a shareable URL.
+- Browse rentals and projects.
+- Save and remove favourite listings.
+- View property insights and summary data.
+
+
+## Tech Stack
+- React
+- Vite
+- Ivy Homes Property API
+- Vercel
+
+## Environment Variables
+Create a `.env` file inside the `frontend` folder and add:
+VITE_API_KEY=your_ivy_api_key
+VITE_BASE_URL=https://solve.ivy.homes
+VITE_DEMO_EMAIL=demo1@ivy.homes
+VITE_DEMO_PASSWORD=your_demo_password
+
+
+## How to Run the Frontend
+1. Navigate to the frontend directory: `cd frontend`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. The application will be available at `http://localhost:5173`.
+
 
 ## Discovering API Discrepancies
 The process of finding API documentation discrepancies involved systematically interacting with the API and analyzing the responses:
@@ -17,3 +47,9 @@ The process of finding API documentation discrepancies involved systematically i
 - The properties of the actual property listings (bedrooms, areas, etc.) largely followed the conventions (lowercase strings, ISO 8601 UTC dates).
 - The filters for `GET /v1/listings` actually worked server-side (for the most part), returning correct counts in `total`.
 - Error messages were genuinely helpful in pointing out missing headers or tokens.
+
+## What I have done with another two days
+- Added listing detail, rentals, projects, saved listings, and insights pages.
+- Calculated the assignment answers and added them to `submission.json`.
+- Deployed the application to Vercel and tested the deployed version.
+

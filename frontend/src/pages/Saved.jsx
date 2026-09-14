@@ -46,7 +46,7 @@ export default function Saved() {
                 <p style={{ color: 'var(--text-muted)', marginBottom: '1rem' }}>₹{l.price.toLocaleString()}</p>
                 <div className="flex justify-between items-center mt-auto">
                   <Link to={`/listings/${l.listing_id}`} className="btn-primary" style={{ padding: '0.5rem 1rem', fontSize: '0.9rem' }}>View</Link>
-                  <button className="btn-primary" style={{ background: '#ef4444' }} onClick={() => removeSave(l.listing_id)}>Remove</button>
+                  <button className="btn-primary" onClick={() => removeSave(l.listing_id)}>Remove</button>
                 </div>
               </div>
             ))}
